@@ -33,3 +33,6 @@ Category (zh)	Count	Percent
 内分泌及代谢疾病	497	4.9%
 神经系统疾病	227	2.2%
 其他	98	1.0%
+
+generate test_yuecol_n100.xlsx：
+python normalize_eval.py --data_xlsx MedMacao.xlsx  --task yuecol2std  --models deepseek  --dump_test test_yuecol_n100.xlsx --n 100 --seed 42
