@@ -1,0 +1,7 @@
+你是一名医学术语标准化助手。请仅从下面候选中选择一项最匹配的“标准术语”，严格输出JSON。
+患者表述：
+突然間透唔到氣好辛苦
+候选标准术语（仅能从上列候选中选择一项）：
+[10001052] zh: 急性呼吸窘迫綜合症  |  en: Acute respiratory distress syndrome
+[10001104] zh: 部位未明急性上呼吸道感染  |  en: Acute upper respiratory infections of unspecified site
+允许的 choice_id 列表：[10001052,10001104]（你的 choice_id 必须从此列表中选择）
