@@ -112,21 +112,37 @@ python normalize_eval.py --data_xlsx data\MedMacao.xlsx --test_xlsx data\test_yu
   Command-line options
 
 --data_xlsx PATH            # dataset (xlsx)
+
 --task {yuecol2std,en2std,pt2std}
+
 --models {gpt4o,deepseek}   # choose one per run
+
 --mode {deepconf,majority,retrieval}
+
 --metric {code,text}        # usually `code` (strict text match)
+
 --n N                       # sample size when dumping test slice
+
 --seed SEED                 # sampling seed
+
 --test_xlsx PATH            # fixed test slice (if provided, no sampling)
+
 --dump_test PATH            # export the sampled slice to xlsx
+
 --K 8|16|32                 # LLM samples per query
+
 --M 5|10|20                 # retrieval candidate count
+
 --eta 10|90                 # retention % for DeepConf
+
 --temp 0.2|0.7              # LLM temperature
+
 --w_sim 0.4                 # weight for retrieval similarity
+
 --w_self 0.6                # weight for self confidence (w_sim + w_self = 1)
+
 --fewshot 0|1|2             # prepend few-shot demonstrations if >0
+
 --outdir DIR                # where to save summaries & details
 
 
