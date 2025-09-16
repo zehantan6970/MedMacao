@@ -1,0 +1,16 @@
+{
+  "task": "yuecol2std",
+  "model": "gpt4o",
+  "mode": "deepconf",
+  "n": 100,
+  "accuracy": 0.06,
+  "topM_hit": 1.0,
+  "K": 16,
+  "M": 10,
+  "eta": 90,
+  "temp": 0.2,
+  "metric": "code",
+  "fewshot": 1,
+  "w_sim": 0.4,
+  "w_self": 0.6
+}
