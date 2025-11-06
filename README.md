@@ -1,5 +1,5 @@
-# MedMacao
-## MedMacao: A Four-Language Medical Term Normalization Dataset for Macao
+# MedMacau
+## MedMacau: A Four-Language Medical Term Normalization Dataset for Macau
 
 Goal. Normalize patient expressions in Cantonese (colloquial) / Mandarin (zh) / English (en) / Portuguese (pt) to standard clinical terms (either zh or en).
 
